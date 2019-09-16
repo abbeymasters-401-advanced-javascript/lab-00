@@ -29,3 +29,6 @@ Return true/false to indicate how the server works
 #### Tests
 * Unit Tests: `npm test`
 * Lint Tests: `npm run lint`
+
+#### UML
+![UML Diagram] (Whiteboard.png)
