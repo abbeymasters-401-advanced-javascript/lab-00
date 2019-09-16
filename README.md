@@ -5,31 +5,27 @@
 ### Author: Abbey Masters
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
+* [submission PR](https://github.com/abbeymasters-401-advanced-javascript/lab-00/pull/1)
+* [travis](https://github.com/abbeymasters-401-advanced-javascript/lab-00/commit/fc850b6)
+* [front-end web server](https://abbeymasters-lab-00.herokuapp.com/)
 
 #### Documentation
-* [api docs](http://xyz.com) (API servers)
-* [jsdoc](http://xyz.com) (Server assignments)
-* [styleguide](http://xyz.com) (React assignments)
+* [jsdoc](https://abbeymasters-lab-00.herokuapp.com/docs/)
+
+###### `isAlive(dead) -> boolean`
+Return true/false to indicate how the server works
 
 ### Setup
 #### `.env` requirements
 * `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
-
-**or, include an `.env.example`**
 
 #### Running the app
+* `npm start`
+* Endpoint: `/`
+    * Returns a boolean
+*Endpoint: `/docs`
+    * Returns JSDoc Documentation Pages
 
-**Describe what npm scripts do**
-(hint: `> npm run` from command line will give you list, paste here and change
-command to description)
-  
 #### Tests
-Any additional testing information
-
-#### UML
-Link to an image of the UML for your application and response to events
+* Unit Tests: `npm test`
+* Lint Tests: `npm run lint`
